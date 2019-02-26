@@ -1,0 +1,7 @@
+# OpenCV_Realtime_Project
+
+Research Paper Link:
+https://link.springer.com/chapter/10.1007/978-981-13-2553-3_23
+
+Abstact:
+The intended study in light is to emphasize the public safety thereby securing the perimeter of a surrounding, enclosing any pedestrian within the limits broadened by a ‘safety line’ indicator. The objective to be accomplished is to enhance the detection of said ‘safety line’ in a dynamic environment. The environment used is of a Train Platform having a maximum priority to the edge of platform limit marked by a distinct yellow line. The colored line intended to be detected can also be treated as an image and thus we can apply object detection techniques for the same. The topic of object detection in image processing is to detect an object within a frame and draw a contour around it. There are various algorithms to detect an object, but we have modified and combined various techniques to produce the desired result. The proposed algorithm works in different phases starting with dividing the given frame in N segments, processing the given segments individually, followed by using the best common result among all the segments to achieve the equation of the colored line. The next phase includes detecting a regular pedestrian using HoG cascades and estimating position with respect to the calculated line to identify whether the line was crossed or not. After implementing this approach, an alarm is successfully generated as soon as any object/person passes the yellow line in order to ensure safety.
